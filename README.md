@@ -1,7 +1,5 @@
-## Django Next Starter
+## Ideaworks-2
 
-### It's the perfect starter for you and your saas project!
+### Basic Django and Next.js Authentication
 
-## Leverage django and react in the same project!! 
-
-# More features to come such as cms and auth
+## Complete Course Models including Sections and Lessons
