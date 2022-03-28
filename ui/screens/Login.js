@@ -11,7 +11,12 @@ const Login = ({ setLoggedIn, loggedIn }) => {
         };
         login(data)
             .then(res => {
-                setLoggedIn(true);
+                console.log(res.data);
+                if (res.data.username === username) {
+                    setLoggedIn(true);
+                } else {
+                    alert(res.data.error);
+                }
             })
             .catch(err => {
                 console.error(err);
